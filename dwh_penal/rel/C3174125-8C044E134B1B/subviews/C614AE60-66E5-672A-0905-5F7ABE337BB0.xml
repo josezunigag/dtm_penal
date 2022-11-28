@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="Delitos" id="C614AE60-66E5-672A-0905-5F7ABE337BB0">
+<createdBy>jzunigag</createdBy>
+<modifiedBy>jzunigag</modifiedBy>
+<createdTime>2022-11-16 11:58:04 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="916141F2-614E-0673-5A34-788226689415" otype="Table" vid="1E9A92DA-1514-7B7B-AAD1-446C8A15FA9B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="0" y="93" width="435" height="578"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F752017A-EF73-2FB9-3D8F-56216E5DEC26" otype="Table" vid="31D46EAC-0C66-E8BF-43E5-6D0E91605875">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="532" y="239" width="213" height="140"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D81F94C5-0DE8-E0B1-AF62-01268117FBBE" otype="FKIndexAssociation" vid_source="1E9A92DA-1514-7B7B-AAD1-446C8A15FA9B" vid_target="31D46EAC-0C66-E8BF-43E5-6D0E91605875">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="435" y="309"/>
+<point x="532" y="309"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
