@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3212EC33-C4FE-5DCF-93BE-A2D672ED8082" name="dim_litigantes">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 12:38:10 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<ordsAlias>table_60</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_litigante" id="DCC4CD86-A529-B9BA-09EC-50A472172BF8">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 12:39:20 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crr_idcausa" id="9E93E934-DABE-39F2-4BAD-E7C8BCD52DDC">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:03:36 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DCBB144-5CBC-45CE-981A-4F416F4DC99F" referredColumn="AF4B65AE-6B85-6E01-36B9-67A2B6BE3A92"/>
+</associations>
+</Column>
+<Column name="crr_idparticipante" id="FE048906-E2B8-95CB-8746-EDF6AB37C1D4">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:06:41 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_participante" id="3CFD4FB5-8B6F-7E54-A8EB-59CDDE871A64">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:07:09 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gls_tipparticipante" id="4E90F5B7-54EA-3A40-F5AE-B7C41D9D706A">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:09:12 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B433FF1D-A875-BACE-92A7-00ABE450F9F0" name="dim_causas_litigantes_PK">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:03:30 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC4CD86-A529-B9BA-09EC-50A472172BF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="187BF0D6-0B1B-D1E4-A943-CEB5DD0E007D" name="dim_causas_litigantes_dim_causas_FK">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:03:36 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E93E934-DABE-39F2-4BAD-E7C8BCD52DDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

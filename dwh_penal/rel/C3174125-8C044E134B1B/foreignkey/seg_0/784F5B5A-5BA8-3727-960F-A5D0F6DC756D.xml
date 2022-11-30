@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="784F5B5A-5BA8-3727-960F-A5D0F6DC756D" containerWithKeyObject="0CBC45CC-EF6F-EEA5-3ADD-77EA0B42C3AA" localFKIndex="3565B664-4866-72C7-14C2-2D23D1BBF77E" name="dim_medidas_cautelares_dim_litigantes_FK">
+<createdBy>josez</createdBy>
+<createdTime>2022-11-29 18:50:29 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<referredTableLongName>dim_litigantes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3212EC33-C4FE-5DCF-93BE-A2D672ED8082</referredTableID>
+<keyObject>B433FF1D-A875-BACE-92A7-00ABE450F9F0</keyObject>
+<referredKeyID>B433FF1D-A875-BACE-92A7-00ABE450F9F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_litigante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
