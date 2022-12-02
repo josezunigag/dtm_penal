@@ -20,45 +20,39 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="crr_idcausa" id="F0C49BE5-56D1-1F5A-9678-098933CAE375">
-<sourceConnName>datawarehouse estadisticas</sourceConnName>
-<sourceObjSchema>dim_participantes</sourceObjSchema>
-<sourceObjName>crr_idcausa</sourceObjName>
-<createdBy>josez</createdBy>
-<createdTime>2022-09-08 20:25:27 UTC</createdTime>
+<Column name="crr_idcausa" id="3E67748E-68F4-B6A2-726F-8EB3CBC3FB94">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-11-30 12:20:03 UTC</createdTime>
 <ownerDesignName>dwh_penal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4DDB82B-7B09-E3AC-4B65-4AA118733D0C" referredColumn="AF4B65AE-6B85-6E01-36B9-67A2B6BE3A92"/>
+</associations>
+</Column>
+<Column name="crr_litigante_id" id="68D2B4EB-0CBB-9758-A44B-919C0696A856">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-11-30 12:27:09 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="crr_persona" id="56F60D8D-4DE2-611B-DCC2-781146A0B912">
-<sourceConnName>datawarehouse estadisticas</sourceConnName>
-<sourceObjSchema>dim_participantes</sourceObjSchema>
-<sourceObjName>crr_persona</sourceObjName>
-<createdBy>josez</createdBy>
-<createdTime>2022-09-08 20:25:27 UTC</createdTime>
-<ownerDesignName>dwh_penal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36485A65-F565-B4B7-D1AA-3A989B71389E" referredColumn="E67E02CA-6A6C-2A24-A3D1-785CB1F0B083"/>
+</associations>
 </Column>
 <Column name="tip_participante" id="E1960188-D422-8684-6B00-52D186EE6E2B">
 <sourceConnName>datawarehouse estadisticas</sourceConnName>
@@ -530,10 +524,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypePrecision>50</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,50,0</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -552,17 +544,24 @@
 <colUsage columnID="6370531E-CCFD-7B93-B34F-674A4D8216FE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5ABAB3A9-A69B-9743-DAB7-B329F718A7C5" name="index_1v16">
-<sourceConnName>datawarehouse estadisticas</sourceConnName>
-<sourceObjSchema>dbo</sourceObjSchema>
-<sourceObjName>index_1</sourceObjName>
-<createdBy>josez</createdBy>
-<createdTime>2022-09-08 20:25:27 UTC</createdTime>
+<ind_PK_UK id="22926729-EE53-C6E1-44A0-D2256CB99473" name="dim_participantes_dim_causas_FK">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-11-30 12:20:03 UTC</createdTime>
 <ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6370531E-CCFD-7B93-B34F-674A4D8216FE" sortOrder="DESC"/>
-<colUsage columnID="F0C49BE5-56D1-1F5A-9678-098933CAE375" sortOrder="DESC"/>
+<colUsage columnID="3E67748E-68F4-B6A2-726F-8EB3CBC3FB94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FFB75B0-18A1-9948-F56A-6693C15B9231" name="dim_participantes_dim_personas_FK">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-11-30 12:27:09 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D2B4EB-0CBB-9758-A44B-919C0696A856"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
