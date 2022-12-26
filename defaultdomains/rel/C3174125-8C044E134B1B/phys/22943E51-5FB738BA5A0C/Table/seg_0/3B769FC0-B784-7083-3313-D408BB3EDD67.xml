@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="dim_medidas_cautelares" directorySegmentName="seg_0" id="3B769FC0-B784-7083-3313-D408BB3EDD67">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="flg_medreservada" id="2AD9B1C9-5F2E-71CE-F649-A1142A234CDD">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="crr_idmedcautelar" id="2F036ACF-5605-0560-8DF6-D225B03F09D2">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="num_tiempoduracion" id="3512908C-C611-C3A8-FA18-150E1538734A">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="crr_juez" id="3F82C319-1262-3CD4-BEAA-4B3683DE9D8C">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="est_medcautelar" id="47F8494D-38B0-A699-276C-99255C6069E3">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="cod_lugarreclusion" id="6DA1C0AB-0FE4-C18F-8B34-0D6350AC2544">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="gls_motrechazo" id="7238F8D0-76E8-895F-1660-4FE7F4CDF52E">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fec_sistema" id="815AEF8D-83C7-DFEA-F946-BF58C01971C2">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="num_plzinvdias" id="81CA68AF-2C23-16FC-DD94-CF708EB4DD61">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="est_firma" id="827CEE26-5E30-1E0A-66D3-AD99E2D8B66E">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="idf_usuariodigita" id="89B5CB8F-FF7C-B093-0D43-DCB9C6BEF039">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="tip_escaladuracion" id="8BBCC8BE-EE2C-2A09-5320-7655150AC341">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="cod_unidadcargo" id="95FD279B-D4B9-73D8-5844-3493BDC690B1">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fec_termedcautelar" id="96046B87-0458-2AFA-9D96-7B279B50DB01">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="gls_instotros" id="9792184A-C2D7-0D02-CD38-D2601BF27D07">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="gls_sename" id="9B2ACE23-D84C-9C34-A431-A1C65982A63E">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="flg_emitecertif" id="9CAC8230-7790-5C99-62CC-0CC66A7252A5">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="crr_evento" id="A0F36D40-9A69-FFE3-9942-291592369EF7">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fec_digitacion" id="B15DA05E-23AA-F564-1C4D-3EB901D6832A">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="idf_usuario" id="B30178A2-9625-9716-DA6D-D79710F72E3B">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="tip_medcautelar" id="BEFF8B3A-B25A-6C39-364D-4866095EF2E7">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="crr_idparticipante" id="CC71D96F-C6D0-B3EE-5117-2C221D94AE09">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="gls_observacion" id="D56824AC-58C6-0523-31EA-F064D6C5099A">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="fec_inimedcautelar" id="DD9B54AB-8A31-F60D-28EB-98AE4ECC017D">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="gls_tipmedcautpdf" id="F3C331A5-64E0-E0FD-1E5F-5E92486F4744">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="cod_unidadcontrol" id="F4FF1FD1-D87E-3058-47A6-39FD8CA6E1A6">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="crr_hito" id="FEA1CF1E-4578-ED1E-E439-55CF887B64B0">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="dim_medidas_cautelares_dim_participantes_FK" id="C122A204-B085-818B-8672-9B0749DCD742">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="dim_medidas_cautelares_PK" id="04163AA1-FF10-7F7B-0279-BE634F954E19">
+<createdBy>jzunigag</createdBy>
+<createdTime>2022-12-16 14:14:21 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>
