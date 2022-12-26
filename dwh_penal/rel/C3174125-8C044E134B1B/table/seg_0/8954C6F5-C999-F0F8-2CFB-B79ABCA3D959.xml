@@ -54,22 +54,19 @@
 <colAssociation fkAssociation="36485A65-F565-B4B7-D1AA-3A989B71389E" referredColumn="E67E02CA-6A6C-2A24-A3D1-785CB1F0B083"/>
 </associations>
 </Column>
-<Column name="tip_participante" id="E1960188-D422-8684-6B00-52D186EE6E2B">
-<sourceConnName>datawarehouse estadisticas</sourceConnName>
-<sourceObjSchema>dim_participantes</sourceObjSchema>
-<sourceObjName>tip_participante</sourceObjName>
+<Column name="id_tipo_participante" id="CB91C382-688D-6EAF-E16B-BFBD0EEF5144">
 <createdBy>josez</createdBy>
-<createdTime>2022-09-08 20:25:27 UTC</createdTime>
+<createdTime>2022-12-02 17:22:36 UTC</createdTime>
 <ownerDesignName>dwh_penal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E3ECBB5-581A-6F44-40B1-90924D054B00" referredColumn="A479F5F0-5E5D-D7C3-DC52-F4DEBD2BA085"/>
+</associations>
 </Column>
 <Column name="cod_sitlibertad" id="8B31F5E8-7A0F-0950-DE25-E40F3D0A839B">
 <sourceConnName>datawarehouse estadisticas</sourceConnName>
@@ -562,6 +559,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="68D2B4EB-0CBB-9758-A44B-919C0696A856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EE1F622-5907-5103-B6D6-94160856A477" name="dim_participantes_dim_tipos_participantes_FK">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-02 17:22:36 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB91C382-688D-6EAF-E16B-BFBD0EEF5144"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -21,10 +21,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -43,7 +40,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="97309DC3-D339-03A8-6260-D52A0DFB865B" referredColumn="FC7C8780-78B3-5781-EF52-0D92C706FF9D"/>
@@ -81,6 +78,29 @@
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,60,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gls_agrupamateria" directorySegmentName="seg_1" id="7F2C2231-3E31-FB00-16C6-AE9109724906">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-05 18:11:38 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_agrupamateria" directorySegmentName="seg_1" id="7AA23697-0ACD-663F-76D5-FB8739767885">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-05 18:12:02 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

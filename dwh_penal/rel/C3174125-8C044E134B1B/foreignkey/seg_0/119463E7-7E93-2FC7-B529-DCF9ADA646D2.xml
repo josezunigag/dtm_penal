@@ -4,7 +4,7 @@
 <createdTime>2022-11-30 15:07:49 UTC</createdTime>
 <ownerDesignName>dwh_penal</ownerDesignName>
 <referredTableLongName>penal_dbo.dim_participantes</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>8954C6F5-C999-F0F8-2CFB-B79ABCA3D959</referredTableID>
 <keyObject>83B28542-56D6-96C2-A44C-5C58871D4809</keyObject>
 <referredKeyID>83B28542-56D6-96C2-A44C-5C58871D4809</referredKeyID>

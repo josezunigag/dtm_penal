@@ -65,27 +65,33 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tip_medcautelar" id="BEFF8B3A-B25A-6C39-364D-4866095EF2E7">
-<createdBy>jzunigag</createdBy>
-<createdTime>2022-11-30 15:18:38 UTC</createdTime>
+<Column name="id_tipo_medida_cautelar" id="4E1C8D50-2F0D-1E0C-A4E5-85E2AB040938">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-02 14:28:06 UTC</createdTime>
 <ownerDesignName>dwh_penal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFC3892F-9DBB-78BD-2954-103F11861245" referredColumn="99738931-A69A-00BE-5920-769E9EDA6DCC"/>
+</associations>
 </Column>
-<Column name="est_medcautelar" id="47F8494D-38B0-A699-276C-99255C6069E3">
-<createdBy>jzunigag</createdBy>
-<createdTime>2022-11-30 15:20:48 UTC</createdTime>
+<Column name="id_estado_medida_cautelar" id="04AD02AC-BC7F-7C27-6B60-BDADD8C675AD">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-02 14:33:10 UTC</createdTime>
 <ownerDesignName>dwh_penal</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6A3958A-FD13-A9CE-1ECE-C8ACA04FC501" referredColumn="5BE3125A-E886-1E05-8B88-17031B2FB202"/>
+</associations>
 </Column>
 <Column name="num_tiempoduracion" id="3512908C-C611-C3A8-FA18-150E1538734A">
 <createdBy>jzunigag</createdBy>
@@ -335,6 +341,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CC71D96F-C6D0-B3EE-5117-2C221D94AE09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="433079A0-CCD4-FF29-8160-409C80B02577" name="dim_medidas_cautelares_dim_tipos_medidas_cautelares_FK">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-02 14:28:06 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E1C8D50-2F0D-1E0C-A4E5-85E2AB040938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="235BCB40-539F-A86C-1426-A5A3496C8A39" name="dim_medidas_cautelares_dim_estados_medidas_cautelares_FK">
+<createdBy>josez</createdBy>
+<createdTime>2022-12-02 14:33:10 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04AD02AC-BC7F-7C27-6B60-BDADD8C675AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
