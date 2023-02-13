@@ -111,6 +111,126 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="crr_evento" id="45589A7C-61B8-41C7-C7D7-5AC1D95C395C">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:11:53 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_evento" id="96523D36-143E-96FE-591E-30350BFC7B44">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:12:12 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_evento" id="7FAFA158-FA3A-D893-DBA7-6D5C8F134D83">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:12:51 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9872D255-29DB-9893-74FF-75033ED90F14" referredColumn="30FF11F6-C4B9-882E-DF4E-4FE8036ACCCF"/>
+</associations>
+</Column>
+<Column name="id_estado_evento" id="2062404C-2C8F-0E7B-F1AD-E16A059765BE">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:13:29 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FA7C0F5-B375-5F92-A25A-9D8A913AB5FC" referredColumn="8C854458-D57A-C3CD-88A3-7A9A667BDE0A"/>
+</associations>
+</Column>
+<Column name="crr_persona_digita" id="D9D4752C-0C6A-4A0E-D3CA-9BB09C3F93EE">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:15:20 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81FEA921-D243-50A7-3C5F-BB27E9E78CED" referredColumn="E67E02CA-6A6C-2A24-A3D1-785CB1F0B083"/>
+</associations>
+</Column>
+<Column name="crr_idparticipante_notificado" id="41758BED-E7A8-1A02-532F-4ACEDB2D1EFC">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:16:23 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20252170-8A8A-8898-C58A-40CA4CEC4133" referredColumn="6370531E-CCFD-7B93-B34F-674A4D8216FE"/>
+</associations>
+</Column>
+<Column name="flg_centronotif" id="6DC32006-274A-FAEF-9330-C995F88A282C">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:17:16 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_creacion" id="E013E7CD-50A3-3682-DF2D-0F8152A6DF55">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-21 00:30:13 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_modificacion" id="EAAC6C58-825B-EE8E-CEEA-05D770AE23A0">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-21 00:30:13 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="58306780-07B3-F86E-FBFD-A35F4A77125E" name="fact_notificaciones_PK">
@@ -162,6 +282,46 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="18DE2249-2C97-41A6-91B2-FC51E61A86DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8931C65-6D13-E411-C05F-A7324CFD4486" name="fact_notificaciones_dim_tipos_eventos_FK">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:12:51 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FAFA158-FA3A-D893-DBA7-6D5C8F134D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBB28877-E640-5D45-55EA-EE6A8305DD55" name="fact_notificaciones_dim_estados_eventos_FK">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:13:29 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2062404C-2C8F-0E7B-F1AD-E16A059765BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0B20DAE-E84E-6D61-F7FC-59447BF38132" name="fact_notificaciones_dim_personas_FK">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:15:20 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D4752C-0C6A-4A0E-D3CA-9BB09C3F93EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C9A2062-902B-CD29-5382-B83D4D1DA3C8" name="fact_notificaciones_dim_participantes_FK">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-01-20 13:16:23 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41758BED-E7A8-1A02-532F-4ACEDB2D1EFC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
