@@ -30,7 +30,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -69,7 +69,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -86,7 +86,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -115,12 +115,23 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
 <dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="63EA86C7-5EE7-FF44-7923-F69703326568" referredColumn="30FF11F6-C4B9-882E-DF4E-4FE8036ACCCF"/>
 </associations>
+</Column>
+<Column name="fec_hito" id="5D9667B9-19A7-7BC6-CF30-0CF6E32ABFE0">
+<createdBy>jzunigag</createdBy>
+<createdTime>2023-04-20 15:18:24 UTC</createdTime>
+<ownerDesignName>dwh_penal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
